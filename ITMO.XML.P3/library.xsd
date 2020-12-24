@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="library">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="book_catalog">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="book">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="authors">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="author" type="xs:string"></xs:element>
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                        <xs:element name="title" type="xs:string"></xs:element>
+                                        <xs:element name="publishing" type="xs:string"></xs:element>
+                                        <xs:element name="annotation" type="xs:string"></xs:element>
+                                    </xs:sequence>
+                                    <xs:attribute name="id" type="xs:ID" use="required"></xs:attribute>
+                                    <xs:attribute name="isbn" type="xs:string" use="optional"></xs:attribute>
+                                    <xs:attribute name="year" type="xs:gYear" use="required"></xs:attribute>
+                                    <xs:attribute name="issue" default="translation">
+                                        <xs:simpleType>
+                                            <xs:restriction base="xs:string">
+                                                <xs:pattern value="translation"></xs:pattern>
+                                                <xs:pattern value="original"></xs:pattern>
+                                             </xs:restriction>
+                                        </xs:simpleType>
+                                    </xs:attribute>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="author_catalog">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="author_book">
+                                <xs:complexType>
+                                    <xs:attribute name="idref" type="xs:IDREF" use="required"></xs:attribute>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>
