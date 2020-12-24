@@ -1,0 +1,35 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+    <itmo xmlns:myns = "http://www.itmo.ru/xml/lessons" xmlns:ie = "http://ya.ru">
+        <myns:courses>
+            <course id="Programming basis">
+                <lector>AAA</lector>
+                <time>18:30-22:00</time>
+                <dates>
+                    <date>29.09.2020</date>
+                    <date>30.09.2020</date>
+                    <date>10.10.2020</date>
+                </dates>
+                <ie:url>ya.ru</ie:url>
+            </course>
+            <course id="C#">
+                <lector>AAA</lector>
+                <time>18:30-22:00</time>
+                <dates>
+                    <date>29.10.2020</date>
+                    <date>30.10.2020</date>
+                    <date>10.11.2020</date>
+                </dates>
+                <ie:url>google.com</ie:url>
+            </course>
+            <course id="WPF">
+                <lector>BBB</lector>
+                <time>18:30-22:00</time>
+                <dates>
+                    <date>11.11.2020</date>
+                    <date>12.11.2020</date>
+                    <date>13.11.2020</date>
+                </dates>
+                <ie:url>rambler.ru</ie:url>
+            </course>
+        </myns:courses>
+    </itmo>

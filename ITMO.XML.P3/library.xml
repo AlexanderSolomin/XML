@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<library>
+<book_catalog>
+    <book id="jlklj" isbn="5656" year="2000" issue="translation">
+        <authors>
+            <author>Author</author>
+        </authors>
+        <title>Title</title>
+        <publishing>Pub</publishing>
+        <annotation>Anno</annotation>
+    </book>
+</book_catalog>
+<author_catalog>
+    <author_book idref="jlklj">
+        Author Book
+    </author_book>
+</author_catalog>
+</library>

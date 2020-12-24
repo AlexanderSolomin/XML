@@ -1,0 +1,9 @@
+<!ELEMENT itmo (courses+)>
+<!ELEMENT courses (course+)>
+<!ELEMENT course (lector, time, dates, url)>
+<!ATTLIST course id CDATA #REQUIRED>
+<!ELEMENT lector (#PCDATA)>
+<!ELEMENT time (#PCDATA)>
+<!ELEMENT dates (date+)>
+<!ELEMENT date (#PCDATA)>
+<!ELEMENT url (#PCDATA)> 

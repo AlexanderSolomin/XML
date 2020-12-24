@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE itmo SYSTEM "lessons_DTD.dtd">
+<itmo>
+    <courses>
+        <course id="Programming basis">
+            <lector>AAA</lector>
+            <time>18:30-22:00</time>
+            <dates>
+                <date>29.09.2020</date>
+                <date>30.09.2020</date>
+                <date>10.10.2020</date>
+            </dates>
+            <url>ya.ru</url>
+        </course>
+        <course id="C#">
+            <lector>AAA</lector>
+            <time>18:30-22:00</time>
+            <dates>
+                <date>29.10.2020</date>
+                <date>30.10.2020</date>
+                <date>10.11.2020</date>
+            </dates>
+            <url>google.com</url>
+        </course>
+        <course id="WPF">
+            <lector>BBB</lector>
+            <time>18:30-22:00</time>
+            <dates>
+                <date>11.11.2020</date>
+                <date>12.11.2020</date>
+                <date>13.11.2020</date>
+            </dates>
+            <url>rambler.ru</url>
+        </course>
+    </courses>
+</itmo>
