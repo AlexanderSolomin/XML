@@ -1,0 +1,42 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+<resume>
+    <candidate id="01">
+        <firstName>IIII</firstName>
+        <surName>KKKK</surName>
+        <lastName>MMMM</lastName>
+        <lastEmp>lastjob</lastEmp>
+        <currentPosition>current position</currentPosition>
+        <dateBirth>01.01.1999</dateBirth>
+        <edu>graduate</edu>
+        <address>address</address>
+        <phone>+88888888888</phone>
+        <marital>marital</marital>
+        <salary currency="RUR">1000000</salary>
+    </candidate>
+    <candidate id="02">
+        <firstName>IIwII</firstName>
+        <surName>KKwKK</surName>
+        <lastName>MMwMM</lastName>
+        <lastEmp>lastwjob</lastEmp>
+        <currentPosition>current position</currentPosition>
+        <dateBirth>01.02.1999</dateBirth>
+        <edu>graduate</edu>
+        <address>address</address>
+        <phone>+88888888888</phone>
+        <marital>marital</marital>
+        <salary currency="RUR">1000000</salary>
+    </candidate>
+    <candidate id="03">
+        <firstName>IIqII</firstName>
+        <surName>KKeKK</surName>
+        <lastName>MMeMM</lastName>
+        <lastEmp>lastjob</lastEmp>
+        <currentPosition>current position</currentPosition>
+        <dateBirth>01.04.1999</dateBirth>
+        <edu>graduate</edu>
+        <address>address</address>
+        <phone>+88888888888</phone>
+        <marital>marital</marital>
+        <salary currency="RUR">1000000</salary>
+    </candidate>
+</resume>
