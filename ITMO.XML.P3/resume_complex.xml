@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<?xml-model href="resume_complex.xsd" ?>
+<resume>
+    <candidate id="aa">
+        <firstName>IIII</firstName>
+        <surName>KKKK</surName>
+        <lastName>MMMM</lastName>
+        <lastEmp>lastjob</lastEmp>
+        <currentPosition>current position</currentPosition>
+        <dateBirth>1947-01-02</dateBirth>
+        <age>33</age>
+        <edu>graduated</edu>
+        <address>address</address>
+        <phone>888-98-88</phone>
+        <marital>married</marital>
+        <salary currency="RUR">1000000</salary>
+    </candidate>
+    <candidate id="ab">
+        <firstName>IIwII</firstName>
+        <surName>KKwKK</surName>
+        <lastName>MMwMM</lastName>
+        <lastEmp>lastwjob</lastEmp>
+        <currentPosition>current position</currentPosition>
+        <dateBirth>1988-06-12</dateBirth>
+        <age>33</age>
+        <edu>graduated</edu>
+        <address>address</address>
+        <phone>777-77-77</phone>
+        <marital>not married</marital>
+        <salary currency="RUR">1000000</salary>
+    </candidate>
+    <candidate id="ac">
+        <firstName>IIqII</firstName>
+        <surName>KKeKK</surName>
+        <lastName>MMeMM</lastName>
+        <lastEmp>lastjob</lastEmp>
+        <currentPosition>current position</currentPosition>
+        <dateBirth>1991-10-06</dateBirth>
+        <age>33</age>
+        <edu>graduated</edu>
+        <address>address</address>
+        <phone>444-44-44</phone>
+        <marital>married</marital>
+        <salary currency="RUR">1000000</salary>
+    </candidate>
+</resume>
