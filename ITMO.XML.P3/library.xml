@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<library xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
- xsi:noNamespaceSchemaLocation="library.xsd">
+<?xml-model href="library.xsd"?>
+<library>
     <book_catalog>
         <book id="jlklj" isbn="5656" year="2000" issue="original">
             <authors>
